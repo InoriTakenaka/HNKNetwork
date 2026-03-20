@@ -1,0 +1,53 @@
+# --- 编译输出 (Executables & Objects) ---
+*.main
+*.o
+*.obj
+*.out
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- 静态/动态库 (Libraries) ---
+*.a
+*.lib
+*.la
+*.lai
+
+# --- 构建系统目录 (Build Systems) ---
+# CMake 产生的临时文件
+build/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# --- 编译器生成的调试文件 (Debug Info) ---
+*.dSYM/
+*.pdb
+*.ilk
+*.exp
+
+# --- IDE 特定文件 (IDE Specific) ---
+# Visual Studio
+**/.vs/
+*.sln
+*.vcxproj
+*.user
+*.suo
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# --- 操作系统临时文件 (OS Specific) ---
+.DS_Store
+Thumbs.db
