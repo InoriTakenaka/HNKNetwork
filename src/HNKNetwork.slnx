@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="HNKNetwork/HNKNetwork.vcxproj" />
+  <Project Path="HNKNetwork/HNKNetwork.vcxproj" Id="87a7c5b9-e5bc-49dc-b5f4-491b0edd36d6" />
 </Solution>
